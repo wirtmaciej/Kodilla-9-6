@@ -5,12 +5,12 @@ add.addEventListener('click', function() {
 var element = document.createElement('li');
 element.innerHTML = 'item', ' ';
 console.log(element);
-var list__Items = document.getElementsByTagName('li');
-console.log(list__Items);
-var element__Number = list__Items.length;
-console.log(element__Number);
+var listItems = document.getElementsByTagName('li');
+console.log(listItems);
+var elementNumber = listItems.length;
+console.log(elementNumber);
 element.innerHTML += ' ';
-element.innerHTML += element__Number;
+element.innerHTML += elementNumber;
 list.appendChild(element);
 
 });
